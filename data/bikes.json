@@ -1,0 +1,1905 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-17",
+  "market": "IN",
+  "source_note": "Bootstrap catalogue for the MotoWorth V1 calculator. Model names are seeded from current Indian two-wheeler marketplace catalogues and recent launch pages; pricing is intentionally stored separately and should be populated/verified by source/date before production valuation.\n",
+  "brands": [
+    {
+      "id": "royal-enfield",
+      "name": "Royal Enfield",
+      "country": "India"
+    },
+    {
+      "id": "hero",
+      "name": "Hero MotoCorp",
+      "country": "India"
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "country": "Japan"
+    },
+    {
+      "id": "bajaj",
+      "name": "Bajaj",
+      "country": "India"
+    },
+    {
+      "id": "tvs",
+      "name": "TVS",
+      "country": "India"
+    },
+    {
+      "id": "yamaha",
+      "name": "Yamaha",
+      "country": "Japan"
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "country": "Japan"
+    },
+    {
+      "id": "ktm",
+      "name": "KTM",
+      "country": "Austria"
+    },
+    {
+      "id": "husqvarna",
+      "name": "Husqvarna",
+      "country": "Sweden"
+    },
+    {
+      "id": "kawasaki",
+      "name": "Kawasaki",
+      "country": "Japan"
+    },
+    {
+      "id": "triumph",
+      "name": "Triumph",
+      "country": "UK"
+    },
+    {
+      "id": "ducati",
+      "name": "Ducati",
+      "country": "Italy"
+    },
+    {
+      "id": "aprilia",
+      "name": "Aprilia",
+      "country": "Italy"
+    },
+    {
+      "id": "bmw-motorrad",
+      "name": "BMW Motorrad",
+      "country": "Germany"
+    },
+    {
+      "id": "harley-davidson",
+      "name": "Harley-Davidson",
+      "country": "USA"
+    },
+    {
+      "id": "jawa",
+      "name": "Jawa",
+      "country": "Czech Republic"
+    },
+    {
+      "id": "yezdi",
+      "name": "Yezdi",
+      "country": "India"
+    },
+    {
+      "id": "benelli",
+      "name": "Benelli",
+      "country": "Italy"
+    },
+    {
+      "id": "moto-guzzi",
+      "name": "Moto Guzzi",
+      "country": "Italy"
+    },
+    {
+      "id": "qjmotor",
+      "name": "QJ Motor",
+      "country": "China"
+    },
+    {
+      "id": "keeway",
+      "name": "Keeway",
+      "country": "Hungary"
+    },
+    {
+      "id": "cfmoto",
+      "name": "CFMoto",
+      "country": "China"
+    },
+    {
+      "id": "bsa",
+      "name": "BSA",
+      "country": "UK"
+    },
+    {
+      "id": "brixton",
+      "name": "Brixton Motorcycles",
+      "country": "Austria"
+    },
+    {
+      "id": "norton",
+      "name": "Norton",
+      "country": "UK"
+    },
+    {
+      "id": "revolt",
+      "name": "Revolt Motors",
+      "country": "India"
+    },
+    {
+      "id": "ather",
+      "name": "Ather",
+      "country": "India",
+      "vehicle_type": "scooter"
+    },
+    {
+      "id": "ola-electric",
+      "name": "Ola Electric",
+      "country": "India",
+      "vehicle_type": "scooter"
+    },
+    {
+      "id": "vida",
+      "name": "Vida",
+      "country": "India",
+      "vehicle_type": "scooter"
+    },
+    {
+      "id": "simple-energy",
+      "name": "Simple Energy",
+      "country": "India",
+      "vehicle_type": "scooter"
+    },
+    {
+      "id": "bgauss",
+      "name": "BGauss",
+      "country": "India",
+      "vehicle_type": "scooter"
+    }
+  ],
+  "models": [
+    {
+      "id": "re-classic-350",
+      "brand_id": "royal-enfield",
+      "name": "Classic 350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 349,
+      "body_style": "retro",
+      "launch_year": 2009,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-bullet-350",
+      "brand_id": "royal-enfield",
+      "name": "Bullet 350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 349,
+      "body_style": "retro",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-meteor-350",
+      "brand_id": "royal-enfield",
+      "name": "Meteor 350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 349,
+      "body_style": "cruiser",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-hunter-350",
+      "brand_id": "royal-enfield",
+      "name": "Hunter 350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 349,
+      "body_style": "roadster",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-himalayan-411",
+      "brand_id": "royal-enfield",
+      "name": "Himalayan 411",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 411,
+      "body_style": "adventure",
+      "launch_year": 2016,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-himalayan-450",
+      "brand_id": "royal-enfield",
+      "name": "Himalayan 450",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 452,
+      "body_style": "adventure",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-guerilla-450",
+      "brand_id": "royal-enfield",
+      "name": "Guerrilla 450",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 452,
+      "body_style": "roadster",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-interceptor-650",
+      "brand_id": "royal-enfield",
+      "name": "Interceptor 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "roadster",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-continental-gt-650",
+      "brand_id": "royal-enfield",
+      "name": "Continental GT 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "cafe_racer",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-super-meteor-650",
+      "brand_id": "royal-enfield",
+      "name": "Super Meteor 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "cruiser",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-shotgun-650",
+      "brand_id": "royal-enfield",
+      "name": "Shotgun 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "cruiser",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-classic-650",
+      "brand_id": "royal-enfield",
+      "name": "Classic 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "retro",
+      "launch_year": 2025,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-bullet-650",
+      "brand_id": "royal-enfield",
+      "name": "Bullet 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 648,
+      "body_style": "retro",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "re-himalayan-440",
+      "brand_id": "royal-enfield",
+      "name": "Himalayan 440",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 443,
+      "body_style": "adventure",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-splendor-plus",
+      "brand_id": "hero",
+      "name": "Splendor Plus",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 97,
+      "body_style": "commuter",
+      "launch_year": 2005,
+      "benchmark_new_price_inr": 94000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-hf-deluxe",
+      "brand_id": "hero",
+      "name": "HF Deluxe",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 97,
+      "body_style": "commuter",
+      "launch_year": 2010,
+      "benchmark_new_price_inr": 94000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-glamour",
+      "brand_id": "hero",
+      "name": "Glamour",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "commuter",
+      "launch_year": 2005,
+      "benchmark_new_price_inr": 94000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-glamour-x-125",
+      "brand_id": "hero",
+      "name": "Glamour X 125",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "commuter",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 94000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-xpulse-200-4v",
+      "brand_id": "hero",
+      "name": "Xpulse 200 4V",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 199,
+      "body_style": "adventure",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 142000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-xtreme-125r",
+      "brand_id": "hero",
+      "name": "Xtreme 125R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "street",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 100000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-xtreme-160r",
+      "brand_id": "hero",
+      "name": "Xtreme 160R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 163,
+      "body_style": "street",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 132000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "hero-karizma-xmr",
+      "brand_id": "hero",
+      "name": "Karizma XMR",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 210,
+      "body_style": "sport",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 211000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-shine-125",
+      "brand_id": "honda",
+      "name": "Shine 125",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 123,
+      "body_style": "commuter",
+      "launch_year": 2006,
+      "benchmark_new_price_inr": 104000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-sp125",
+      "brand_id": "honda",
+      "name": "SP 125",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 124,
+      "body_style": "commuter",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 104000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-unicorn",
+      "brand_id": "honda",
+      "name": "Unicorn",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 160,
+      "body_style": "commuter",
+      "launch_year": 2004,
+      "benchmark_new_price_inr": 147000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-cb200x",
+      "brand_id": "honda",
+      "name": "CB200X",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 184,
+      "body_style": "adventure",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 159000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-cb300r",
+      "brand_id": "honda",
+      "name": "CB300R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 286,
+      "body_style": "naked",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 218000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-cb350",
+      "brand_id": "honda",
+      "name": "CB350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 348,
+      "body_style": "retro",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 215000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-hness-cb350",
+      "brand_id": "honda",
+      "name": "Hness CB350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 348,
+      "body_style": "retro",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 314000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-cb350rs",
+      "brand_id": "honda",
+      "name": "CB350RS",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 348,
+      "body_style": "scrambler",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 314000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-cbr650r",
+      "brand_id": "honda",
+      "name": "CBR650R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "sport",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 1000000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "honda-africa-twin",
+      "brand_id": "honda",
+      "name": "Africa Twin",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1084,
+      "body_style": "adventure",
+      "launch_year": 2016,
+      "benchmark_new_price_inr": 1693000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-pulsar-125",
+      "brand_id": "bajaj",
+      "name": "Pulsar 125",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "street",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 104000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-pulsar-n160",
+      "brand_id": "bajaj",
+      "name": "Pulsar N160",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 165,
+      "body_style": "street",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 155000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-pulsar-n250",
+      "brand_id": "bajaj",
+      "name": "Pulsar N250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "street",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 218000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-pulsar-rs200",
+      "brand_id": "bajaj",
+      "name": "Pulsar RS200",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 199,
+      "body_style": "sport",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 159000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-dominar-250",
+      "brand_id": "bajaj",
+      "name": "Dominar 250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 248,
+      "body_style": "sport_tourer",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 218000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bajaj-dominar-400",
+      "brand_id": "bajaj",
+      "name": "Dominar 400",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 373,
+      "body_style": "sport_tourer",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 314000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-sport",
+      "brand_id": "tvs",
+      "name": "Sport",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 109,
+      "body_style": "commuter",
+      "launch_year": 2007,
+      "benchmark_new_price_inr": 101000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-raider-125",
+      "brand_id": "tvs",
+      "name": "Raider 125",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "street",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 101000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-apache-rtr-160",
+      "brand_id": "tvs",
+      "name": "Apache RTR 160",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 160,
+      "body_style": "street",
+      "launch_year": 2007,
+      "benchmark_new_price_inr": 160000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-apache-rtr-200-4v",
+      "brand_id": "tvs",
+      "name": "Apache RTR 200 4V",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 197,
+      "body_style": "street",
+      "launch_year": 2016,
+      "benchmark_new_price_inr": 143000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-apache-rr-310",
+      "brand_id": "tvs",
+      "name": "Apache RR 310",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 312,
+      "body_style": "sport",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 328000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-ronin",
+      "brand_id": "tvs",
+      "name": "Ronin",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 226,
+      "body_style": "roadster",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 165000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "tvs-radeon",
+      "brand_id": "tvs",
+      "name": "Radeon",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 109,
+      "body_style": "commuter",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 101000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-fz-fi",
+      "brand_id": "yamaha",
+      "name": "FZ-FI",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 149,
+      "body_style": "street",
+      "launch_year": 2008,
+      "benchmark_new_price_inr": 155000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-fzs-fi-v4",
+      "brand_id": "yamaha",
+      "name": "FZS-FI V4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 149,
+      "body_style": "street",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 155000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-mt-15",
+      "brand_id": "yamaha",
+      "name": "MT-15",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 155,
+      "body_style": "street",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 175000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-r15-v4",
+      "brand_id": "yamaha",
+      "name": "R15 V4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 155,
+      "body_style": "sport",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 190000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-r15m",
+      "brand_id": "yamaha",
+      "name": "R15M",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 155,
+      "body_style": "sport",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 167000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-r3",
+      "brand_id": "yamaha",
+      "name": "R3",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 321,
+      "body_style": "sport",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-mt-03",
+      "brand_id": "yamaha",
+      "name": "MT-03",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 321,
+      "body_style": "naked",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yamaha-r2",
+      "brand_id": "yamaha",
+      "name": "R2",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 204,
+      "body_style": "sport",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 248000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-access-125",
+      "brand_id": "suzuki",
+      "name": "Access 125",
+      "vehicle_type": "scooter",
+      "engine_cc": 125,
+      "body_style": "scooter",
+      "launch_year": 2007,
+      "benchmark_new_price_inr": 119000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-gixxer",
+      "brand_id": "suzuki",
+      "name": "Gixxer",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 155,
+      "body_style": "street",
+      "launch_year": 2014,
+      "benchmark_new_price_inr": 167000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-gixxer-sf",
+      "brand_id": "suzuki",
+      "name": "Gixxer SF",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 155,
+      "body_style": "sport",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 181000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-gixxer-sf-250",
+      "brand_id": "suzuki",
+      "name": "Gixxer SF 250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "sport",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 268000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-v-strom-sx",
+      "brand_id": "suzuki",
+      "name": "V-Strom SX",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "adventure",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 268000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-hayabusa",
+      "brand_id": "suzuki",
+      "name": "Hayabusa",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1340,
+      "body_style": "sport",
+      "launch_year": 1999,
+      "benchmark_new_price_inr": 1750000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-gsx-s750",
+      "brand_id": "suzuki",
+      "name": "GSX-S750",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 749,
+      "body_style": "naked",
+      "launch_year": 2018,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 900000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "suzuki-katana",
+      "brand_id": "suzuki",
+      "name": "Katana",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 999,
+      "body_style": "naked",
+      "launch_year": 2022,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 1134000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-125-duke",
+      "brand_id": "ktm",
+      "name": "125 Duke",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 125,
+      "body_style": "street",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 117000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-200-duke",
+      "brand_id": "ktm",
+      "name": "200 Duke",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 199,
+      "body_style": "street",
+      "launch_year": 2012,
+      "benchmark_new_price_inr": 164000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-250-duke",
+      "brand_id": "ktm",
+      "name": "250 Duke",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "street",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 244000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-390-duke",
+      "brand_id": "ktm",
+      "name": "390 Duke",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 398,
+      "body_style": "street",
+      "launch_year": 2013,
+      "benchmark_new_price_inr": 300000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-390-adventure",
+      "brand_id": "ktm",
+      "name": "390 Adventure",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 373,
+      "body_style": "adventure",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 378000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-rc-200",
+      "brand_id": "ktm",
+      "name": "RC 200",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 199,
+      "body_style": "sport",
+      "launch_year": 2014,
+      "benchmark_new_price_inr": 177000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ktm-rc-390",
+      "brand_id": "ktm",
+      "name": "RC 390",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 373,
+      "body_style": "sport",
+      "launch_year": 2014,
+      "benchmark_new_price_inr": 378000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "husqvarna-vitpilen-250",
+      "brand_id": "husqvarna",
+      "name": "Vitpilen 250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "cafe_racer",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 248000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "husqvarna-svartpilen-250",
+      "brand_id": "husqvarna",
+      "name": "Svartpilen 250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "scrambler",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 248000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-ninja-300",
+      "brand_id": "kawasaki",
+      "name": "Ninja 300",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 296,
+      "body_style": "sport",
+      "launch_year": 2013,
+      "benchmark_new_price_inr": 293000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-ninja-400",
+      "brand_id": "kawasaki",
+      "name": "Ninja 400",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 399,
+      "body_style": "sport",
+      "launch_year": 2018,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 421000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-ninja-500",
+      "brand_id": "kawasaki",
+      "name": "Ninja 500",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 451,
+      "body_style": "sport",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 570000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-ninja-650",
+      "brand_id": "kawasaki",
+      "name": "Ninja 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "sport",
+      "launch_year": 2012,
+      "benchmark_new_price_inr": 730000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-z650",
+      "brand_id": "kawasaki",
+      "name": "Z650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "naked",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 690000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-z900",
+      "brand_id": "kawasaki",
+      "name": "Z900",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 948,
+      "body_style": "naked",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 1000000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-zx-4r",
+      "brand_id": "kawasaki",
+      "name": "ZX-4R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 399,
+      "body_style": "sport",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 421000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-zx-6r",
+      "brand_id": "kawasaki",
+      "name": "ZX-6R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 636,
+      "body_style": "sport",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 828000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-zx-10r",
+      "brand_id": "kawasaki",
+      "name": "ZX-10R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 998,
+      "body_style": "sport",
+      "launch_year": 2010,
+      "benchmark_new_price_inr": 1338000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-versys-650",
+      "brand_id": "kawasaki",
+      "name": "Versys 650",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "adventure",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 828000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-vulcan-s",
+      "brand_id": "kawasaki",
+      "name": "Vulcan S",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "cruiser",
+      "launch_year": 2017,
+      "benchmark_new_price_inr": 823000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-z650rs",
+      "brand_id": "kawasaki",
+      "name": "Z650RS",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "retro",
+      "launch_year": 2025,
+      "benchmark_new_price_inr": 767000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "kawasaki-klx230",
+      "brand_id": "kawasaki",
+      "name": "KLX230",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 233,
+      "body_style": "offroad",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 258000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-speed-400",
+      "brand_id": "triumph",
+      "name": "Speed 400",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 398,
+      "body_style": "roadster",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 255000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-scrambler-400x",
+      "brand_id": "triumph",
+      "name": "Scrambler 400 X",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 398,
+      "body_style": "scrambler",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 295000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-speed-t4",
+      "brand_id": "triumph",
+      "name": "Speed T4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 398,
+      "body_style": "roadster",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 396000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-street-triple-765",
+      "brand_id": "triumph",
+      "name": "Street Triple 765",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 765,
+      "body_style": "naked",
+      "launch_year": 2007,
+      "benchmark_new_price_inr": 1120000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-tiger-sport-660",
+      "brand_id": "triumph",
+      "name": "Tiger Sport 660",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 660,
+      "body_style": "adventure",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 842000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-tiger-900",
+      "brand_id": "triumph",
+      "name": "Tiger 900",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 888,
+      "body_style": "adventure",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 1361000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-tiger-1200",
+      "brand_id": "triumph",
+      "name": "Tiger 1200",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1160,
+      "body_style": "adventure",
+      "launch_year": 2012,
+      "benchmark_new_price_inr": 2138000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-bonneville-t100",
+      "brand_id": "triumph",
+      "name": "Bonneville T100",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 900,
+      "body_style": "retro",
+      "launch_year": 2009,
+      "benchmark_new_price_inr": 1260000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-bonneville-t120",
+      "brand_id": "triumph",
+      "name": "Bonneville T120",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1200,
+      "body_style": "retro",
+      "launch_year": 2016,
+      "benchmark_new_price_inr": 1980000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-scrambler-1200",
+      "brand_id": "triumph",
+      "name": "Scrambler 1200",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1200,
+      "body_style": "scrambler",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 1980000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "triumph-bonneville-400",
+      "brand_id": "triumph",
+      "name": "Bonneville 400",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 398,
+      "body_style": "retro",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 396000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-scrambler-icon",
+      "brand_id": "ducati",
+      "name": "Scrambler Icon",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 803,
+      "body_style": "scrambler",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 1050000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-scrambler-nightshift",
+      "brand_id": "ducati",
+      "name": "Scrambler Nightshift",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 803,
+      "body_style": "scrambler",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 1628000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-monster",
+      "brand_id": "ducati",
+      "name": "Monster",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 937,
+      "body_style": "naked",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 1628000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-panigale-v2",
+      "brand_id": "ducati",
+      "name": "Panigale V2",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 955,
+      "body_style": "sport",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 1758000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-panigale-v4",
+      "brand_id": "ducati",
+      "name": "Panigale V4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1103,
+      "body_style": "sport",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 2762000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-panigale-v4-r",
+      "brand_id": "ducati",
+      "name": "Panigale V4 R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 998,
+      "body_style": "sport",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 1758000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-multistrada-v2",
+      "brand_id": "ducati",
+      "name": "Multistrada V2",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 937,
+      "body_style": "adventure",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 1758000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-multistrada-v4",
+      "brand_id": "ducati",
+      "name": "Multistrada V4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1158,
+      "body_style": "adventure",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 2762000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-multistrada-v4-rally",
+      "brand_id": "ducati",
+      "name": "Multistrada V4 Rally",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1158,
+      "body_style": "adventure",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 2762000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ducati-diavel-v4",
+      "brand_id": "ducati",
+      "name": "Diavel V4",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1158,
+      "body_style": "cruiser",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 2558000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "aprilia-rs-457",
+      "brand_id": "aprilia",
+      "name": "RS 457",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 457,
+      "body_style": "sport",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 490000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "aprilia-tuono-457",
+      "brand_id": "aprilia",
+      "name": "Tuono 457",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 457,
+      "body_style": "naked",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 422000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "aprilia-rs-660",
+      "brand_id": "aprilia",
+      "name": "RS 660",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 659,
+      "body_style": "sport",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 899000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "aprilia-tuono-660",
+      "brand_id": "aprilia",
+      "name": "Tuono 660",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 659,
+      "body_style": "naked",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 832000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "aprilia-tuareg-660",
+      "brand_id": "aprilia",
+      "name": "Tuareg 660",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 659,
+      "body_style": "adventure",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 899000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-g-310-r",
+      "brand_id": "bmw-motorrad",
+      "name": "G 310 R",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 313,
+      "body_style": "naked",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 310000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-g-310-gs",
+      "brand_id": "bmw-motorrad",
+      "name": "G 310 GS",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 313,
+      "body_style": "adventure",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 481000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-f-900-gs",
+      "brand_id": "bmw-motorrad",
+      "name": "F 900 GS",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 895,
+      "body_style": "adventure",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 1531000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-f-900-xr",
+      "brand_id": "bmw-motorrad",
+      "name": "F 900 XR",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 895,
+      "body_style": "sport_tourer",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 1418000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-s-1000-rr",
+      "brand_id": "bmw-motorrad",
+      "name": "S 1000 RR",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 999,
+      "body_style": "sport",
+      "launch_year": 2010,
+      "benchmark_new_price_inr": 1531000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bmw-r-1300-gs",
+      "brand_id": "bmw-motorrad",
+      "name": "R 1300 GS",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1300,
+      "body_style": "adventure",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 2406000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-x440",
+      "brand_id": "harley-davidson",
+      "name": "X440",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 440,
+      "body_style": "roadster",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 270000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-nightster",
+      "brand_id": "harley-davidson",
+      "name": "Nightster",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 975,
+      "body_style": "cruiser",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 1522000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-sportster-s",
+      "brand_id": "harley-davidson",
+      "name": "Sportster S",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1252,
+      "body_style": "cruiser",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 2392000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-fat-bob-114",
+      "brand_id": "harley-davidson",
+      "name": "Fat Bob 114",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1868,
+      "body_style": "cruiser",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 3190000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-fat-boy-114",
+      "brand_id": "harley-davidson",
+      "name": "Fat Boy 114",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1868,
+      "body_style": "cruiser",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 3190000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "harley-pan-america-1250",
+      "brand_id": "harley-davidson",
+      "name": "Pan America 1250",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1252,
+      "body_style": "adventure",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 2584000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-42",
+      "brand_id": "jawa",
+      "name": "42",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 294,
+      "body_style": "retro",
+      "launch_year": 2018,
+      "benchmark_new_price_inr": 207000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-350",
+      "brand_id": "jawa",
+      "name": "350",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "retro",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 297000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-perak",
+      "brand_id": "jawa",
+      "name": "Perak",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "bobber",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 297000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-42-bobber",
+      "brand_id": "jawa",
+      "name": "42 Bobber",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "bobber",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 297000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-all-star-42",
+      "brand_id": "jawa",
+      "name": "All Star 42",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 295,
+      "body_style": "retro",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 207000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-all-stars-42-bobber",
+      "brand_id": "jawa",
+      "name": "All Stars 42 Bobber",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "bobber",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 297000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "jawa-all-stars-42-fj",
+      "brand_id": "jawa",
+      "name": "All Stars 42 FJ",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "roadster",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 297000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yezdi-roadster",
+      "brand_id": "yezdi",
+      "name": "Roadster",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "roadster",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 304000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yezdi-scrambler",
+      "brand_id": "yezdi",
+      "name": "Scrambler",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "scrambler",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 304000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "yezdi-adventure",
+      "brand_id": "yezdi",
+      "name": "Adventure",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 334,
+      "body_style": "adventure",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 328000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "benelli-302s",
+      "brand_id": "benelli",
+      "name": "302S",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 300,
+      "body_style": "naked",
+      "launch_year": 2019,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 230000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "benelli-trk-502",
+      "brand_id": "benelli",
+      "name": "TRK 502",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 500,
+      "body_style": "adventure",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "benelli-leoncino-500",
+      "brand_id": "benelli",
+      "name": "Leoncino 500",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 500,
+      "body_style": "scrambler",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 330000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "moto-guzzi-v7",
+      "brand_id": "moto-guzzi",
+      "name": "V7",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 853,
+      "body_style": "retro",
+      "launch_year": 2015,
+      "benchmark_new_price_inr": 1491000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "moto-guzzi-v85-tt",
+      "brand_id": "moto-guzzi",
+      "name": "V85 TT",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 853,
+      "body_style": "adventure",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 1610000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "qjmotor-src-500",
+      "brand_id": "qjmotor",
+      "name": "SRC 500",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 480,
+      "body_style": "retro",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 346000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "qjmotor-srv-550",
+      "brand_id": "qjmotor",
+      "name": "SRV 550",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 554,
+      "body_style": "cruiser",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 682000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "qjmotor-srk-700",
+      "brand_id": "qjmotor",
+      "name": "SRK 700",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 698,
+      "body_style": "naked",
+      "launch_year": 2023,
+      "benchmark_new_price_inr": 682000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "keeway-v302c",
+      "brand_id": "keeway",
+      "name": "V302C",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 298,
+      "body_style": "cruiser",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 242000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "keeway-k-light-250v",
+      "brand_id": "keeway",
+      "name": "K-Light 250V",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 249,
+      "body_style": "cruiser",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 242000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "keeway-vieste-300",
+      "brand_id": "keeway",
+      "name": "Vieste 300",
+      "vehicle_type": "scooter",
+      "engine_cc": 278,
+      "body_style": "scooter",
+      "launch_year": 2022,
+      "benchmark_new_price_inr": 242000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "cfmoto-300nk",
+      "brand_id": "cfmoto",
+      "name": "300NK",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 292,
+      "body_style": "naked",
+      "launch_year": 2020,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 230000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "cfmoto-650nk",
+      "brand_id": "cfmoto",
+      "name": "650NK",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "naked",
+      "launch_year": 2019,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "cfmoto-650gt",
+      "brand_id": "cfmoto",
+      "name": "650GT",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 649,
+      "body_style": "sport_tourer",
+      "launch_year": 2019,
+      "market_status": "discontinued",
+      "benchmark_new_price_inr": 650000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bsa-gold-star",
+      "brand_id": "bsa",
+      "name": "Gold Star",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 652,
+      "body_style": "retro",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 780000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "brixton-crossfire-500",
+      "brand_id": "brixton",
+      "name": "Crossfire 500",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 486,
+      "body_style": "scrambler",
+      "launch_year": 2025,
+      "benchmark_new_price_inr": 356000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "norton-t360",
+      "brand_id": "norton",
+      "name": "T360",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 1200,
+      "body_style": "roadster",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 2722000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "revolt-rv400",
+      "brand_id": "revolt",
+      "name": "RV400",
+      "vehicle_type": "motorcycle",
+      "engine_cc": 0,
+      "body_style": "electric",
+      "launch_year": 2019,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ather-450x",
+      "brand_id": "ather",
+      "name": "450X",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2020,
+      "benchmark_new_price_inr": 160000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ather-rizta",
+      "brand_id": "ather",
+      "name": "Rizta",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2024,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ola-s1-pro",
+      "brand_id": "ola-electric",
+      "name": "S1 Pro",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 140000,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "ola-s1-z",
+      "brand_id": "ola-electric",
+      "name": "S1 Z",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "vida-vx2",
+      "brand_id": "vida",
+      "name": "VX2",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2025,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "simple-energy-one",
+      "brand_id": "simple-energy",
+      "name": "One",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2021,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "simple-energy-wave",
+      "brand_id": "simple-energy",
+      "name": "Wave",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    },
+    {
+      "id": "bgauss-c12-maxr",
+      "brand_id": "bgauss",
+      "name": "C12 MaxR",
+      "vehicle_type": "scooter",
+      "engine_cc": 0,
+      "body_style": "scooter",
+      "launch_year": 2026,
+      "benchmark_new_price_inr": 130000.0,
+      "benchmark_status": "seed_reference"
+    }
+  ],
+  "benchmark_note": "Seed reference values are starting inputs for V1 and are not a live MSRP feed. Replace with variant/city/date-specific source records in msrp_history before production launch."
+}
