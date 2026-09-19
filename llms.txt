@@ -1,0 +1,18 @@
+# MotoWorth
+
+MotoWorth is an India-focused buyer-side used-bike valuation and listing-analysis tool.
+
+Primary tasks:
+- Estimate a buyer-side used-bike price range.
+- Set an opening offer, target close and walk-away ceiling.
+- Estimate an immediate repair reserve.
+- Analyse a marketplace listing using asking price and bike details.
+- Explain negotiation strategy for owner vs dealer sellers.
+
+Data policy:
+- Source-backed reference records retain source, date, price basis and confidence.
+- Catalogue-only records are not treated as verified market quotes.
+- Used-market asking prices are separate from new-bike reference prices.
+- Dealer status does not inflate intrinsic bike value.
+
+Website: https://www.motoworth.com/
