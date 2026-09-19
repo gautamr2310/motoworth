@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-18",
+  "purpose": "Brand context for education and market perception. These profiles are not reliability ratings and do not create an automatic rupee premium without used-market evidence.",
+  "source_notes": [
+    {
+      "id": "jdpower-2026-iqs",
+      "name": "J.D. Power 2026 India Two-Wheeler Initial Quality Study",
+      "url": "https://japan.jdpower.com/en/press-releases/2026-india-two-wheeler-initial-quality-study-iqs",
+      "scope": "New two-wheeler initial quality, 6,381 owners, over 80 models, 15 nameplates; this is not a long-term used-bike reliability measure.",
+      "use": "Context only; never treated as a used-bike reliability score."
+    },
+    {
+      "id": "jdpower-2025-iqs",
+      "name": "J.D. Power 2025 India Two-Wheeler Initial Quality Study",
+      "url": "https://www.jdpower.com/business/press-releases/2025-india-two-wheeler-initial-quality-study-2wiqs",
+      "scope": "New two-wheeler initial quality, 6,503 owners, 80 models, 12 makes.",
+      "use": "Context only; illustrates that measured quality and owner perception can be tracked separately from used-market price."
+    }
+  ],
+  "profiles": {
+    "royal-enfield": {
+      "theme": "heritage & character",
+      "buyer_lens": "Owners often buy an RE for the feel, sound and identity as much as the transport. In resale, condition, originality and maintenance history still matter more than sentiment alone.",
+      "emotion": "Some motorcycles are bought with a spreadsheet. Others are bought because they made you stop and look back."
+    },
+    "hero": {
+      "theme": "practical ownership",
+      "buyer_lens": "High familiarity and everyday-use positioning can make a model easier for buyers to understand. Model-specific condition and maintenance still determine the individual bike.",
+      "emotion": "A dependable daily bike can become part of your routine without you noticing—until it is time to let it go."
+    },
+    "honda": {
+      "theme": "engineering & familiarity",
+      "buyer_lens": "Honda has broad market familiarity in India. MotoWorth treats that as market context, not proof that every Honda is equally reliable; model, year and service history remain decisive.",
+      "emotion": "For some riders, the appeal is simple: an engine they trust, a bike they know, and fewer surprises along the way."
+    },
+    "bajaj": {
+      "theme": "performance & value",
+      "buyer_lens": "Bajaj spans everyday and performance-oriented motorcycles. Buyer demand and resale behaviour can differ significantly by model, so MotoWorth keeps the brand lens separate from the model's market evidence.",
+      "emotion": "Some bikes are remembered for the commute. Others are remembered for the grin they gave you on an empty road."
+    },
+    "tvs": {
+      "theme": "engineering & performance",
+      "buyer_lens": "TVS has a broad Indian lineup across practical and enthusiast motorcycles. Model-level evidence matters more than a single brand-wide assumption.",
+      "emotion": "When a bike feels right every time you start it, that routine can become part of what you are actually saying goodbye to."
+    },
+    "yamaha": {
+      "theme": "performance & enthusiast appeal",
+      "buyer_lens": "Yamaha carries a strong performance identity in India. MotoWorth treats enthusiast demand as a market-perception signal; any actual price premium must come from comparable used-bike evidence.",
+      "emotion": "There are motorcycles you own. And there are motorcycles you wait all week to ride."
+    },
+    "suzuki": {
+      "theme": "engineering & performance",
+      "buyer_lens": "Suzuki is a Japanese manufacturer with a strong engineering-led identity. MotoWorth will not assume long-term reliability from nationality alone; service history and model-specific evidence matter.",
+      "emotion": "Some bikes earn their place quietly: smooth starts, familiar controls and an engine you look forward to hearing again."
+    },
+    "kawasaki": {
+      "theme": "performance & engineering",
+      "buyer_lens": "Kawasaki has a strong enthusiast and performance identity. That can affect buyer interest, but MotoWorth does not turn badge value into an automatic price premium without market evidence.",
+      "emotion": "If the bike was a dream when you bought it, it is worth remembering that the feeling was part of the purchase—even if resale has to be measured differently."
+    },
+    "ktm": {
+      "theme": "performance & character",
+      "buyer_lens": "KTM's identity is strongly performance-oriented. Used-bike value is especially sensitive to model, riding history, modifications and maintenance quality.",
+      "emotion": "Some bikes are chosen because they promise trouble-free miles. Others are chosen because they promise stories."
+    },
+    "triumph": {
+      "theme": "heritage & premium character",
+      "buyer_lens": "Triumph combines heritage with modern performance. Emotional demand can matter in resale, while service history and model-specific evidence remain essential.",
+      "emotion": "A motorcycle can be transport, hobby and identity at the same time. MotoWorth keeps the value honest without pretending the emotion is irrelevant."
+    },
+    "ducati": {
+      "theme": "performance & design",
+      "buyer_lens": "Ducati ownership can carry strong emotional and enthusiast appeal. For used buyers, condition, documented servicing and model-specific maintenance exposure are critical.",
+      "emotion": "Some motorcycles are bought because they make your pulse change before the engine even starts."
+    },
+    "aprilia": {
+      "theme": "performance & enthusiast appeal",
+      "buyer_lens": "Aprilia has a performance-led identity and a more specialist buyer pool in India. Liquidity and resale can therefore be model-specific and evidence-led.",
+      "emotion": "The bike you choose because it felt different is often the bike you remember longest."
+    },
+    "bmw-motorrad": {
+      "theme": "premium & technology",
+      "buyer_lens": "BMW Motorrad combines premium positioning, technology and touring/performance appeal. Used valuation should pay close attention to service records, electronics and model-specific maintenance.",
+      "emotion": "Premium bikes are rarely bought for one reason. The machine, the badge and the journey all become part of the story."
+    },
+    "harley-davidson": {
+      "theme": "heritage & identity",
+      "buyer_lens": "Harley-Davidson has unusually strong brand identity and emotional demand. Resale remains model- and market-specific rather than guaranteed by the badge.",
+      "emotion": "For some owners, the motorcycle becomes part of the person they were when they rode it."
+    },
+    "jawa": {
+      "theme": "heritage & style",
+      "buyer_lens": "Jawa's modern Indian offering leans on heritage and styling. MotoWorth will separate that emotional appeal from evidence about used-market clearing prices.",
+      "emotion": "Sometimes the first thing you remember about a bike is how it made you feel before you even rode it."
+    },
+    "yezdi": {
+      "theme": "heritage & character",
+      "buyer_lens": "Yezdi trades on heritage and distinctive character. Model-specific demand, service history and parts exposure should be checked before assigning resale value.",
+      "emotion": "Character is part of why people choose certain motorcycles—and why letting one go can feel different."
+    },
+    "benelli": {
+      "theme": "style & performance",
+      "buyer_lens": "Benelli attracts buyers through design and performance character. Used value should be anchored by actual comparable listings and ownership condition.",
+      "emotion": "A striking motorcycle can stay memorable long after the numbers have changed."
+    },
+    "moto-guzzi": {
+      "theme": "character & heritage",
+      "buyer_lens": "Moto Guzzi has a distinctive heritage and enthusiast appeal. A smaller buyer pool can make condition and local market evidence especially important.",
+      "emotion": "Some engines have a personality of their own. That personality is difficult to fit into a depreciation table."
+    },
+    "qjmotor": {
+      "theme": "new-market value & equipment",
+      "buyer_lens": "QJ Motor is a newer name in the Indian market. Resale evidence should therefore be treated cautiously until longer market histories develop.",
+      "emotion": "Every newer brand starts by asking riders to take a chance. Time and ownership data are what turn that chance into confidence."
+    },
+    "keeway": {
+      "theme": "style & international character",
+      "buyer_lens": "Keeway competes through distinctive styling and international positioning. Used-market liquidity should be verified locally rather than assumed.",
+      "emotion": "Sometimes you buy the motorcycle because it simply looks like you."
+    },
+    "cfmoto": {
+      "theme": "performance & equipment",
+      "buyer_lens": "CFMoto brings a relatively newer performance proposition to India. MotoWorth will rely on model-specific market evidence rather than assuming a universal brand premium or discount.",
+      "emotion": "A bike can be a statement before it becomes a statistic."
+    },
+    "bsa": {
+      "theme": "heritage & premium character",
+      "buyer_lens": "BSA relies heavily on heritage and design identity. Resale value should be grounded in model-specific demand and condition.",
+      "emotion": "Heritage is one of the few things you can feel before you put a bike into gear."
+    },
+    "brixton": {
+      "theme": "style & character",
+      "buyer_lens": "Brixton is positioned around distinctive design and character. Used-market depth should be established with actual local comparables.",
+      "emotion": "A bike that looks different can make the morning ride feel different too."
+    },
+    "norton": {
+      "theme": "heritage & premium identity",
+      "buyer_lens": "Norton carries a historic premium identity. For used buyers, parts, service support and local market liquidity deserve close attention.",
+      "emotion": "Some names carry stories that are older than the motorcycle sitting in your garage."
+    },
+    "revolt": {
+      "theme": "electric mobility & value",
+      "buyer_lens": "Revolt sits in the electric-mobility market, where battery condition and technology cycle can materially affect used value.",
+      "emotion": "The first bike that changed how you think about mobility can become a meaningful chapter in your ownership story."
+    },
+    "ather": {
+      "theme": "technology & urban mobility",
+      "buyer_lens": "Ather's product identity is strongly technology-led. For used value, battery health, software/support horizon and local service experience matter alongside age and kilometres.",
+      "emotion": "For some riders, the dashboard and charging routine become as familiar as an engine note."
+    },
+    "ola-electric": {
+      "theme": "technology & scale",
+      "buyer_lens": "Ola Electric sits in a fast-changing EV market. Used valuation needs special attention to battery, software, support and model-year changes.",
+      "emotion": "New technology can make a bike feel like a glimpse into the future—and that can be part of why it was chosen."
+    },
+    "vida": {
+      "theme": "technology & urban mobility",
+      "buyer_lens": "Vida's value is closely tied to the EV ownership experience. Battery condition and support ecosystem need to be checked directly.",
+      "emotion": "A different kind of ride can still become a very personal daily ritual."
+    },
+    "simple-energy": {
+      "theme": "performance & EV innovation",
+      "buyer_lens": "Simple Energy is a newer EV brand, so market-history and support data should be treated cautiously until a deeper used market develops.",
+      "emotion": "Early adopters often remember the moment they chose something unfamiliar. That story is real, even when resale is still being discovered."
+    },
+    "bgauss": {
+      "theme": "urban EV & practicality",
+      "buyer_lens": "BGauss competes in urban electric mobility. Battery health, support and parts availability should be considered alongside age and kilometres.",
+      "emotion": "A scooter can still become the vehicle that carries years of small, important moments."
+    },
+    "husqvarna": {
+      "theme": "performance & design",
+      "buyer_lens": "Husqvarna sits within a performance-oriented family with distinctive design. Used value should be anchored in model-specific demand, condition and local comparable listings.",
+      "emotion": "Some motorcycles are chosen because they look unlike anything else. That choice is part of the ownership story."
+    }
+  },
+  "fallback": {
+    "theme": "model character & ownership story",
+    "buyer_lens": "A badge can influence what buyers expect, but MotoWorth will only turn that perception into a rupee adjustment when used-market evidence supports it.",
+    "emotion": "A motorcycle is more than an asset to the person who owned it. MotoWorth keeps that in the conversation without pretending sentiment equals resale value."
+  }
+}

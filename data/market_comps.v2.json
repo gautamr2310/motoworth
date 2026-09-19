@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-17",
+  "status": "manual_only",
+  "records": [
+    {
+      "id": "user-example-gsx-s750-dealer",
+      "model_id": "suzuki-gsx-s750",
+      "city": "Bengaluru",
+      "registration_year": 2019,
+      "km": null,
+      "asking_price_inr": 875000,
+      "seller_type": "dealer",
+      "source_type": "user_reported_example",
+      "source_url": null,
+      "verified": false,
+      "notes": "User-reported scenario; included only as a product QA case and excluded from market calibration until independently verified."
+    }
+  ]
+}

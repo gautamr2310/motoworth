@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-09-18",
+  "purpose": "Buyer education layer for the practical reality of owning a used motorcycle today. Values are model-specific where source-backed and otherwise explicitly marked as a benchmark or coverage-gap.",
+  "global_defaults": {
+    "fuel_price_inr_per_litre": 100,
+    "planning_efficiency_method": "Use owner-reported or ARAI/claimed efficiency when sourced. Where only claimed efficiency exists, MotoWorth may use 85% of claimed as a transparent planning estimate; it is not a prediction of actual mileage.",
+    "parts_availability_policy": "Never claim local stock from brand reputation alone. Show a support signal and tell the buyer to verify current local availability, especially for discontinued models or specialist parts."
+  },
+  "profiles": {
+    "hero-splendor-plus": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "claimed_kmpl": 70,
+        "real_world_city_kmpl_range": [60, 68],
+        "source_label": "Hero MotoCorp",
+        "source_url": "https://www.heromotocorp.com/en-in/blogs/splendor-plus-comfort-and-riding-experience-why-office-commuters-still-prefer-it.html"
+      },
+      "service": {
+        "interval_km": 6000,
+        "interval_months": 6,
+        "source_url": "https://www.heromotocorp.com/content/dam/hero-aem-website/in/service-owner-manual/Splendor-plus-xtec-aug-2024.pdf",
+        "note": "Hero's service manual states paid service is due within 180 days or 6,000 km, whichever comes first."
+      },
+      "parts": {
+        "availability": "strong",
+        "cost_level": "low",
+        "note": "Hero describes a wide service network and easily available spare parts for the Splendor family."
+      },
+      "support_status": "current_model",
+      "ownership_fit": ["daily_city", "budget_commute"],
+      "ride_today": "Low running-cost profile; particularly practical when the bike is being used frequently for city commuting.",
+      "why_now": [
+        "Fuel efficiency is unusually strong for a petrol motorcycle, which matters more as annual kilometres rise.",
+        "The maintenance cadence and parts ecosystem are straightforward for an everyday commuter."
+      ],
+      "pause": [
+        "Do not overpay merely because it is a familiar brand; condition, age and service history still determine the individual bike.",
+        "If the bike has neglected chain, brake, tyre or oil maintenance, the headline fuel economy will not rescue a poor ownership example."
+      ],
+      "sources": [
+        {"label":"Hero MotoCorp — Splendor Plus mileage & ownership","url":"https://www.heromotocorp.com/en-in/blogs/splendor-plus-comfort-and-riding-experience-why-office-commuters-still-prefer-it.html"},
+        {"label":"Hero MotoCorp — service manual","url":"https://www.heromotocorp.com/content/dam/hero-aem-website/in/service-owner-manual/Splendor-plus-xtec-aug-2024.pdf"}
+      ]
+    },
+    "re-classic-350": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "owner_reported_kmpl": 34,
+        "tank_l": 13,
+        "source_label": "BikeWale owner-reported data",
+        "source_url": "https://www.bikewale.com/royalenfield-bikes/classic-350/"
+      },
+      "service": {
+        "interval_note": "Service schedule varies by generation; check the exact owner's manual and stamped/job-card history for the year being purchased.",
+        "source_url": "https://www.royalenfield.com/in/en/service/periodic-maintenance/"
+      },
+      "parts": {
+        "availability": "strong",
+        "cost_level": "low_to_medium",
+        "note": "Royal Enfield provides a service-centre and genuine-parts locator; local stock can still vary by city and part."
+      },
+      "support_status": "current_model_family",
+      "ownership_fit": ["daily_city", "mixed", "weekend_touring"],
+      "ride_today": "A practical middleweight when you value easy access to support and a relaxed riding experience more than outright performance.",
+      "why_now": [
+        "A current, widely supported model family can reduce the friction of routine service and consumables.",
+        "Owner-reported fuel economy around the mid-30s km/L can keep running costs reasonable for a 350cc motorcycle."
+      ],
+      "pause": [
+        "A used Classic can span very different generations; do not use today's model reputation to price an older generation automatically.",
+        "Verify the exact service schedule, clutch/chain/brake condition and any upcoming tyre replacement before closing."
+      ],
+      "sources": [
+        {"label":"BikeWale — Classic 350 current mileage","url":"https://www.bikewale.com/royalenfield-bikes/classic-350/"},
+        {"label":"Royal Enfield — periodic maintenance","url":"https://www.royalenfield.com/in/en/service/periodic-maintenance/"}
+      ]
+    },
+    "honda-cb350": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "owner_reported_kmpl": 35,
+        "source_label": "BikeWale owner-reported data",
+        "source_url": "https://www.bikewale.com/honda-bikes/cb350/mileage/"
+      },
+      "service": {
+        "network_note": "Honda offers maintenance contracts for its BigWing motorcycle network; local service capacity should be checked by city.",
+        "source_url": "https://www.honda2wheelersindia.com/services/maintenance/annual-maintenance-contract"
+      },
+      "parts": {
+        "availability": "moderate_to_strong",
+        "cost_level": "low_to_medium",
+        "note": "Honda provides an AMC/service framework for BigWing motorcycles; verify local parts stock for model-specific items."
+      },
+      "support_status": "current_model_family",
+      "ownership_fit": ["daily_city", "mixed", "weekend_touring"],
+      "ride_today": "Balanced ownership profile: moderate fuel consumption with a relatively manageable 350cc running footprint.",
+      "why_now": [
+        "The model can make sense for regular use when service history is clear and the local BigWing support channel works for you.",
+        "Owner-reported mileage around 35 km/L keeps fuel spend from becoming the main ownership problem for moderate annual usage."
+      ],
+      "pause": [
+        "Do not treat the Honda badge as proof that a particular used bike was maintained well.",
+        "Ask for the exact service record and confirm parts/service availability in your city before buying a bike with unresolved issues."
+      ],
+      "sources": [
+        {"label":"BikeWale — CB350 mileage","url":"https://www.bikewale.com/honda-bikes/cb350/mileage/"},
+        {"label":"Honda 2Wheelers India — AMC","url":"https://www.honda2wheelersindia.com/services/maintenance/annual-maintenance-contract"}
+      ]
+    },
+    "suzuki-gsx-s750": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "owner_reported_kmpl": 19.3,
+        "tank_l": 16,
+        "source_label": "BikeWale test/reference",
+        "source_url": "https://www.bikewale.com/suzuki-bikes/gsx-s750/"
+      },
+      "service": {
+        "note": "Verify the exact service schedule for the bike's year and the current availability of specialist support before purchase."
+      },
+      "parts": {
+        "availability": "verify",
+        "cost_level": "medium_to_high",
+        "note": "The GSX-S750 is discontinued in India. Parts availability and lead times should be verified for the exact year/part before paying a scarcity premium."
+      },
+      "support_status": "discontinued",
+      "ownership_fit": ["weekend_performance", "mixed"],
+      "ride_today": "An enthusiast-focused litre-class-adjacent experience with materially higher fuel spend than commuter or 300–400cc bikes. Its discontinued status makes parts/support verification part of the purchase decision.",
+      "why_now": [
+        "A well-maintained example can still make sense when the buyer specifically wants its four-cylinder character and the local support picture is acceptable.",
+        "The used-bike decision should focus heavily on condition, records and parts verification rather than comparing it with a brand-new motorcycle on headline price alone."
+      ],
+      "pause": [
+        "Do not pay extra simply because a seller calls it 'rare'. The model is discontinued, so scarcity is not the same thing as verified market premium.",
+        "Before closing, verify availability and lead time for expensive or model-specific parts, and inspect the cooling, electronics, brakes, suspension and drivetrain carefully.",
+        "At roughly 19 km/L in reference testing, fuel can become a meaningful recurring cost for high-mileage daily use."
+      ],
+      "sources": [
+        {"label":"BikeWale — GSX-S750 current/used overview","url":"https://www.bikewale.com/suzuki-bikes/gsx-s750/"},
+        {"label":"BikeWale — GSX-S750 specifications & discontinuation","url":"https://www.bikewale.com/suzuki-bikes/gsx-s750/specifications-features/"}
+      ]
+    },
+    "kawasaki-ninja-650": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "note": "Mileage is intentionally not hard-coded until a current model/year-specific source is verified."
+      },
+      "service": {
+        "package_cost_inr": 46500,
+        "package_scope": "K-Care package",
+        "package_note": "Kawasaki currently publishes a ₹46,500 K-Care price for Ninja 650; its published 8-service EW+Service figure is ₹55,588.",
+        "source_url": "https://www.kawasaki-india.com/en/service/k-care.html"
+      },
+      "parts": {
+        "availability": "moderate_to_strong",
+        "cost_level": "medium_to_high",
+        "note": "Kawasaki's service programme uses genuine parts; local part lead times should still be checked for specific items."
+      },
+      "support_status": "current_model",
+      "ownership_fit": ["weekend_touring", "mixed", "performance"],
+      "ride_today": "More important to budget for service and consumables than to chase a single mileage figure. Kawasaki's current published K-Care price makes scheduled servicing a visible, estimable cost component.",
+      "why_now": [
+        "A current model with a published service package makes scheduled maintenance easier to budget than an unsupported or fully discontinued motorcycle.",
+        "For buyers who want a middleweight twin and can absorb premium-bike consumable costs, ownership can be planned rather than guessed."
+      ],
+      "pause": [
+        "Confirm K-Care eligibility/scope for the specific used bike; a current package price is not automatically transferable to every used example.",
+        "Check tyre, chain/sprocket and brake condition because these consumables can materially change the first-year ownership bill."
+      ],
+      "sources": [
+        {"label":"Kawasaki India — K-Care","url":"https://www.kawasaki-india.com/en/service/k-care.html"}
+      ]
+    },
+    "triumph-scrambler-400x": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "claimed_kmpl": 27,
+        "owner_reported_kmpl": 28,
+        "source_label": "Triumph + BikeWale",
+        "source_url": "https://www.triumphmotorcycles.in/motorcycles/classic/scrambler-400-x/specification"
+      },
+      "service": {
+        "interval_km": 16000,
+        "interval_months": 12,
+        "source_url": "https://www.triumphmotorcycles.in/motorcycles/classic/scrambler-400-x/specification",
+        "note": "Triumph publishes 16,000 km / 12 months, whichever comes first, for the Scrambler 400 X."
+      },
+      "parts": {
+        "availability": "moderate",
+        "cost_level": "medium",
+        "note": "Use the authorised network for model-specific service; verify local stock for specialist parts before buying a damaged example."
+      },
+      "support_status": "current_model_family",
+      "ownership_fit": ["mixed", "weekend_touring", "daily_city"],
+      "ride_today": "A performance-oriented single that can work as a daily-plus-weekend bike when the buyer accepts a mid-20s-to-high-20s km/L fuel profile.",
+      "why_now": [
+        "The published 16,000 km/12 month service interval can make scheduled servicing easier to plan.",
+        "Its fuel-efficiency references are in the high-20s km/L range, which is manageable for moderate mileage."
+      ],
+      "pause": [
+        "Do not use owner-reported mileage as a guarantee; traffic, throttle use and maintenance can move actual consumption materially.",
+        "Check the exact service history and local availability of model-specific parts before buying a bike with unresolved electrical, suspension or crash damage."
+      ],
+      "sources": [
+        {"label":"Triumph India — Scrambler 400 X specification","url":"https://www.triumphmotorcycles.in/motorcycles/classic/scrambler-400-x/specification"},
+        {"label":"Triumph India — T-Series service interval","url":"https://www.triumphmotorcycles.in/for-the-ride/news/motorcycles/t-series-q-and-a-2024-03-28"},
+        {"label":"BikeWale — Scrambler 400 X mileage","url":"https://www.bikewale.com/triumph-bikes/scrambler-400-x/mileage/"}
+      ]
+    },
+    "ducati-monster": {
+      "fuel_type": "petrol",
+      "efficiency": {
+        "note": "Mileage is not hard-coded until a current India-market source is verified."
+      },
+      "service": {
+        "annual_months": 12,
+        "oil_interval_km": 15000,
+        "oil_interval_months": 24,
+        "valve_interval_km": 45000,
+        "service_package": {
+          "plus_2y_15k_inr": 25999,
+          "pro_4y_30k_inr": 68999
+        },
+        "source_url": "https://www.ducati.com/in/en/service-maintenance/ducati-protect-service-package"
+      },
+      "parts": {
+        "availability": "moderate",
+        "cost_level": "high",
+        "note": "Ducati's authorised network and genuine-parts servicing are an important part of ownership; consumables such as tyres, brake pads and clutch components are outside the quoted Ducati Protect packages."
+      },
+      "support_status": "current_model_family",
+      "ownership_fit": ["weekend_performance", "touring"],
+      "ride_today": "This is a premium performance ownership decision. The right question is not only resale value but whether the buyer is comfortable with premium-service and consumable economics.",
+      "why_now": [
+        "Ducati currently publishes explicit service-package pricing, which makes a portion of scheduled maintenance costs visible upfront.",
+        "Longer oil and valve-clearance intervals can reduce how frequently the motorcycle needs major scheduled attention, although consumables remain separate."
+      ],
+      "pause": [
+        "Do not mistake long service intervals for low total ownership cost; tyres, brake components and other consumables can be significant.",
+        "Verify whether any Ducati service package or warranty benefit transfers to the specific used motorcycle."
+      ],
+      "sources": [
+        {"label":"Ducati India — Ducati Protect","url":"https://www.ducati.com/in/en/service-maintenance/ducati-protect-service-package"},
+        {"label":"Ducati India — Monster service intervals","url":"https://www.ducati.com/in/en/bikes/monster/monster-v2/insights"}
+      ]
+    }
+  },
+  "fallback": {
+    "fuel_type": "petrol",
+    "support_status": "coverage_expanding",
+    "efficiency": {"note": "MotoWorth has not source-verified a mileage figure for this model/year yet."},
+    "service": {"note": "Check the exact owner's manual and job-card history for this model/year."},
+    "parts": {"availability":"verify", "cost_level":"not_yet_verified", "note":"Verify local parts stock, lead times and specialist support before purchase."},
+    "ownership_fit": ["mixed"],
+    "ride_today": "MotoWorth is still expanding model-level ownership data. Treat the price output as incomplete until the ownership profile is source-backed.",
+    "why_now": ["A clean, documented example can still be interesting when the ownership basics are confirmed locally."],
+    "pause": ["Do not pay a premium for assumed reliability, rarity or brand image until the model/year evidence is verified."]
+  }
+}
