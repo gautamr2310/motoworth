@@ -1,1 +1,20 @@
-
+const ex = 234140;
+const stateTax = Math.round(ex * 0.18);
+const replacement = ex + stateTax;
+const age = 2;
+const historical = ex * 0.72;
+const replacementDep = replacement * 0.80;
+const mix = 0.88;
+let value = historical * (1 - mix) + replacementDep * mix;
+const expectedKm = age * 7000;
+const kmAdj = -(((15500 - expectedKm) / 1000) * 0.01);
+value *= 1 + kmAdj;
+value *= 1.025;
+value *= 1.03;
+const low = value * 0.86;
+const high = value * 1.14;
+const round = n => Math.round(n);
+const expected = { target: 223305, low: 192042, high: 254568 };
+const actual = { target: round(value), low: round(low), high: round(high) };
+for (const k of Object.keys(expected)) if (actual[k] !== expected[k]) throw new Error(`${k}: ${actual[k]} != ${expected[k]}`);
+console.log(JSON.stringify({ pass:true, actual }, null, 2));
