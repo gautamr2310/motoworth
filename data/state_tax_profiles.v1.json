@@ -1,0 +1,263 @@
+{
+  "version": "1.1",
+  "default_registration_state": "KA",
+  "default_current_state": "KA",
+  "states": [
+    {
+      "code": "AN",
+      "name": "Andaman and Nicobar Islands",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "AS",
+      "name": "Assam",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "CH",
+      "name": "Chandigarh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "CG",
+      "name": "Chhattisgarh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "DN",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "DL",
+      "name": "Delhi",
+      "tax_profile_status": "verified"
+    },
+    {
+      "code": "GA",
+      "name": "Goa",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "HR",
+      "name": "Haryana",
+      "tax_profile_status": "verified"
+    },
+    {
+      "code": "HP",
+      "name": "Himachal Pradesh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "JK",
+      "name": "Jammu and Kashmir",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka",
+      "tax_profile_status": "verified"
+    },
+    {
+      "code": "KL",
+      "name": "Kerala",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "LA",
+      "name": "Ladakh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "LD",
+      "name": "Lakshadweep",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "MH",
+      "name": "Maharashtra",
+      "tax_profile_status": "verified"
+    },
+    {
+      "code": "MN",
+      "name": "Manipur",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "OD",
+      "name": "Odisha",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "PB",
+      "name": "Punjab",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu",
+      "tax_profile_status": "verified"
+    },
+    {
+      "code": "TS",
+      "name": "Telangana",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "TR",
+      "name": "Tripura",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "UK",
+      "name": "Uttarakhand",
+      "tax_profile_status": "pending_verification"
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal",
+      "tax_profile_status": "pending_verification"
+    }
+  ],
+  "profiles": {
+    "KA": {
+      "method": "price_percent",
+      "rate_percent": 18,
+      "source_label": "Karnataka Motor Vehicles Taxation Act: motorcycles costing above ₹1 lakh attract 18% lifetime tax at new registration; age-based percentages apply to already-registered vehicles.",
+      "source_url": "https://upload.indiacode.nic.in/showfile?actid=AC_KA_71_588_00001_35_1551338921071&filename=35_of_1957%28e%29_18_of_2022.pdf&type=actfile",
+      "registration_fee_inr": 300,
+      "registration_fee_label": "Motorcycle registration fee (base)",
+      "registration_fee_source": "Central Motor Vehicles Rules, Rule 81",
+      "registration_fee_source_url": "https://morth.nic.in/sites/default/files/CMVR-chapter3_1.pdf"
+    },
+    "MH": {
+      "method": "cc_percent",
+      "bands": [
+        {
+          "min_cc": 0,
+          "max_cc": 99,
+          "rate_percent": 10,
+          "label": "up to 99cc"
+        },
+        {
+          "min_cc": 100,
+          "max_cc": 299,
+          "rate_percent": 11,
+          "label": "100–299cc"
+        },
+        {
+          "min_cc": 300,
+          "max_cc": 9999,
+          "rate_percent": 12,
+          "label": "300cc+"
+        }
+      ],
+      "source_label": "Maharashtra Transport Department: personal motorcycles above 300cc have a 12% one-time tax rate.",
+      "source_url": "https://transport.maharashtra.gov.in/1117/Rate-of-Vehicle-Tax",
+      "registration_fee_inr": 500,
+      "registration_fee_label": "New motorcycle registration fee",
+      "registration_fee_source": "Maharashtra Motor Vehicle Department",
+      "registration_fee_source_url": "https://transport.maharashtra.gov.in/1177/Registration-Fees?format=print"
+    },
+    "HR": {
+      "method": "price_percent",
+      "rate_percent": 8,
+      "source_label": "Haryana Transport: personal two-wheelers above ₹2 lakh attract 8% one-time tax; interstate vehicles may create additional tax/compliance implications.",
+      "source_url": "https://haryanatransport.gov.in/en/content/non-transport-vehicles-one-time-tax",
+      "registration_fee_inr": 300,
+      "registration_fee_label": "Motorcycle registration fee",
+      "registration_fee_source": "Haryana registration fee schedule / CMVR Rule 81",
+      "registration_fee_source_url": "https://investharyana.in/content/pdfs/Taxes%20and%20Levies%20in%20Haryana.pdf"
+    },
+    "DL": {
+      "method": "price_percent",
+      "rate_percent": 8,
+      "source_label": "Delhi Motor Vehicles Taxation Act schedule: two-wheelers above ₹60,000 are listed at 8% of cost price.",
+      "source_url": "https://transport.delhi.gov.in/transport/tax-rate-0",
+      "registration_fee_inr": 300,
+      "registration_fee_label": "Motorcycle registration fee",
+      "registration_fee_source": "Central Motor Vehicles Rules, Rule 81",
+      "registration_fee_source_url": "https://morth.nic.in/sites/default/files/CMVR-chapter3_1.pdf"
+    },
+    "TN": {
+      "method": "price_percent",
+      "rate_percent": 12,
+      "source_label": "Tamil Nadu Motor Vehicles Taxation Act amendment: new motorcycles above ₹1 lakh are subject to a 12% lifetime tax rate; age-based rates apply to already-registered motorcycles.",
+      "source_url": "https://tnsta.gov.in/pdfpage/pdfpage_tn_9whfknJ_2025_08_06.pdf",
+      "registration_fee_inr": 300,
+      "registration_fee_label": "Motorcycle registration fee base",
+      "registration_fee_source": "Central Motor Vehicles Rules, Rule 81; verify local portal charges",
+      "registration_fee_source_url": "https://morth.nic.in/sites/default/files/CMVR-chapter3_1.pdf"
+    }
+  },
+  "on_road_methodology": {
+    "formula": "ex_showroom_reference + applicable_state_road_tax + applicable_registration_fee",
+    "insurance_included": false,
+    "note": "On-road reference is used as the valuation depreciation base. Insurance, finance, dealer accessories and optional/VIP registration are excluded unless separately modelled."
+  }
+}
