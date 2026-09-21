@@ -724,7 +724,7 @@ main.wrap{max-width:none!important;padding:0 24px 36px!important;background:var(
 @media(max-width:760px){.brand.mwOption4 .logoBadge{width:36px;height:36px;flex-basis:36px}.brand.mwOption4 .logoBadge:after{height:36px;width:18px}.brand.mwOption4 .logoMw{font-size:17px}.brand.mwOption4 .logoDivider{height:25px}.brand.mwOption4 .logoWordmark{font-size:19px}.brand.mwOption4 .logoTagline{font-size:5.5px;letter-spacing:.13em;margin-top:3px}.brand.mwOption4{gap:9px}}
 </style>
 
-<style id="motoworth-v12-whatsapp-gate">
+<style id="motoworth-v15-report-gate">
 .reportGate{position:fixed;inset:0;background:rgba(8,12,18,.62);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:20px;z-index:9999}
 .reportGate.open{display:flex}
 .reportGateCard{width:min(520px,100%);background:#fff;border:1px solid #e4e7eb;border-radius:18px;box-shadow:0 24px 80px rgba(0,0,0,.22);padding:28px}
@@ -771,12 +771,235 @@ main.wrap{max-width:none!important;padding:0 24px 36px!important;background:var(
 @media(max-width:900px){.mwAboutGrid{grid-template-columns:1fr}.mwLearnGrid{grid-template-columns:1fr}.mwAbout{padding:0 16px}}
 </style>
 
+
+<style id="motoworth-new-logo">
+/* Final logo update: use the supplied orange MotoWorth geometric mark. */
+.brand.mwOption4 .newLogoBadge:after{display:none!important;content:none!important}
+.brand.mwOption4 .newLogoBadge{border:0!important;background:transparent!important;box-shadow:none!important}
+.brand.mwOption4 .newLogoBadge .mwLogoImage{opacity:1!important;visibility:visible!important}
+
+.brand .newLogoBadge{
+  width:78px!important;height:58px!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  background:transparent!important;border:0!important;border-radius:0!important;
+  overflow:visible!important;box-shadow:none!important;
+}
+.brand .mwLogoImage{
+  display:block!important;width:58px!important;height:58px!important;
+  max-width:none!important;object-fit:contain!important;
+}
+.brand .logoDivider{margin-left:0!important;margin-right:0!important}
+@media(max-width:760px){.brand .newLogoBadge{width:58px!important;height:48px!important}.brand .mwLogoImage{width:48px!important;height:48px!important}}
+</style>
+
+
+<style id="motoworth-mobile-optimization-v1">
+/* MotoWorth mobile optimization — layout only. No valuation/data logic changed. */
+html,body{max-width:100%;overflow-x:hidden}
+button,.action,.tab,.navlink,select,input,textarea{touch-action:manipulation}
+
+@media (max-width: 760px){
+  body{font-size:14px}
+  .wrap{width:100%;max-width:none;padding-left:16px!important;padding-right:16px!important}
+
+  /* Header: compact, thumb-friendly, no desktop-only controls. */
+  header .wrap.nav{
+    height:64px!important;
+    padding:0 14px!important;
+    gap:0!important;
+  }
+  .brand{
+    width:auto!important;
+    max-width:calc(100% - 8px)!important;
+    flex:1 1 auto!important;
+    height:48px!important;
+    gap:8px!important;
+    min-width:0!important;
+  }
+  .brand .newLogoBadge{
+    width:50px!important;
+    height:44px!important;
+    flex:0 0 50px!important;
+  }
+  .brand .mwLogoImage{width:44px!important;height:44px!important}
+  .brand .logoDivider{height:34px!important;margin:0!important}
+  .logoText{min-width:0!important}
+  .logoWordmark{font-size:22px!important;line-height:22px!important;white-space:nowrap!important}
+  .logoTagline{display:none!important}
+  .topnav,.navtools{display:none!important}
+
+  /* Hero: shorter and vertically balanced on a phone. */
+  .hero{
+    height:auto!important;
+    min-height:355px!important;
+    padding:0!important;
+  }
+  .heroInner{
+    height:auto!important;
+    min-height:355px!important;
+    padding:42px 16px 34px!important;
+    display:flex!important;
+    flex-direction:column!important;
+    justify-content:flex-start!important;
+  }
+  .heroEyebrow{font-size:9px!important;letter-spacing:.16em!important;margin-bottom:12px!important}
+  .hero h1{
+    font-size:clamp(39px,12vw,52px)!important;
+    line-height:.94!important;
+    letter-spacing:-.06em!important;
+    max-width:100%!important;
+    margin-bottom:13px!important;
+  }
+  .hero p{
+    font-size:15px!important;
+    line-height:1.45!important;
+    max-width:100%!important;
+    margin-bottom:0!important;
+  }
+  .desktopBreak{display:none!important}
+  .heroFeatures{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:13px 12px!important;
+    margin-top:25px!important;
+    width:100%!important;
+  }
+  .heroFeatures>div{
+    min-width:0!important;
+    gap:7px!important;
+    align-items:flex-start!important;
+  }
+  .featureIcon{font-size:19px!important;flex:0 0 auto!important}
+  .heroFeatures b{font-size:10px!important;line-height:1.25!important}
+  .heroTagline{display:none!important}
+
+  /* Calculator becomes a true one-column mobile form. */
+  main.wrap{
+    width:100%!important;
+    max-width:none!important;
+    padding:0 12px 28px!important;
+    margin-top:-18px!important;
+  }
+  .grid{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:12px!important;
+  }
+  .panel,.grid>.panel,.grid>.resultPanel{
+    width:100%!important;
+    min-width:0!important;
+    border-radius:14px!important;
+  }
+  .head{
+    padding:17px 16px 12px!important;
+    gap:8px!important;
+    align-items:flex-start!important;
+  }
+  .head h2{font-size:18px!important;line-height:1.2!important}
+  .head p{font-size:11px!important;line-height:1.45!important}
+  .head .tag{font-size:8px!important;padding:5px 7px!important;flex:0 0 auto!important}
+  .body{padding:14px 16px 20px!important}
+
+  .row,.checks,.compRow,.referenceRow3,.usageGrid{
+    grid-template-columns:1fr!important;
+  }
+  .field{margin-top:12px!important}
+  .field label{font-size:11px!important;margin-bottom:6px!important}
+  .input,.select{
+    height:46px!important;
+    min-height:46px!important;
+    font-size:16px!important;
+    line-height:46px!important;
+    border-radius:10px!important;
+  }
+  textarea.input{
+    line-height:1.4!important;
+    min-height:128px!important;
+    height:auto!important;
+    padding:11px!important;
+  }
+  .hint{font-size:10px!important;line-height:1.5!important}
+
+  /* Condition buttons: 2 x 2 gives comfortable tap targets. */
+  .seg{
+    display:grid!important;
+    grid-template-columns:1fr 1fr!important;
+    gap:4px!important;
+  }
+  .seg button{
+    min-height:44px!important;
+    padding:9px 6px!important;
+    font-size:11px!important;
+  }
+  .check{min-height:44px!important;font-size:11px!important;padding:10px!important}
+  .check input{width:18px!important;height:18px!important;flex:0 0 auto!important}
+  .action{
+    min-height:46px!important;
+    height:46px!important;
+    font-size:12px!important;
+    margin-top:14px!important;
+  }
+  .ctaRow{display:grid!important;grid-template-columns:1fr!important;gap:9px!important}
+  .ctaRow .action{width:100%!important;min-height:46px!important}
+
+  .usageRow{padding:11px!important}
+  .usageTitle{font-size:10px!important;line-height:1.4!important}
+  .usageGrid{gap:2px!important}
+  .usageGrid .field{margin-top:9px!important}
+  .usageGrid .input,.usageGrid .select{height:44px!important;min-height:44px!important}
+  .regNote{font-size:9px!important;line-height:1.5!important}
+
+  /* Result panel: preserve all information while reducing density. */
+  .resultTop{padding:18px 16px 15px!important}
+  .price{font-size:clamp(42px,13vw,54px)!important;line-height:1!important}
+  .range{font-size:10px!important;line-height:1.45!important}
+  .confidence{font-size:9px!important;margin-top:9px!important}
+  .valueLayers{grid-template-columns:1fr!important;gap:8px!important;padding:12px 16px 3px!important}
+  .valueLayer.market,.valueLayer.negotiation{grid-column:auto!important}
+  .valueLayer{padding:12px!important}
+  .valueLayer .layerVal{font-size:19px!important}
+  .cards{grid-template-columns:1fr 1fr!important;gap:8px!important;padding:13px 16px!important}
+  .card{padding:11px!important}
+  .card .val{font-size:19px!important}
+  .insight,.todayLens,.regBox,.script{margin-left:16px!important;margin-right:16px!important}
+  .meters{padding-left:16px!important;padding-right:16px!important}
+  .meter{grid-template-columns:88px 1fr 30px!important;gap:7px!important}
+  .todayGrid{grid-template-columns:1fr 1fr!important;gap:7px!important}
+  .todayItem{padding:9px!important}
+  .decisionGrid{grid-template-columns:1fr!important;gap:8px!important}
+  .regGridOut{grid-template-columns:1fr!important;gap:7px!important}
+  .bikeSummary{grid-template-columns:1fr!important;gap:13px!important}
+  .bikeThumb{width:100%!important;height:185px!important;border-radius:12px!important}
+  .bikeThumb img{padding:10px!important}
+  .bikeMeta h2{font-size:21px!important;line-height:1.2!important}
+  .compactResult{padding:16px!important}
+
+  .cta{padding:16px!important}
+  .cta h3{font-size:13px!important}
+  .cta p{font-size:10px!important}
+  .method{font-size:9px!important;line-height:1.5!important}
+  .foot{padding-bottom:28px!important}
+}
+
+@media (max-width: 380px){
+  header .wrap.nav{padding:0 10px!important}
+  .brand .newLogoBadge{width:44px!important;flex-basis:44px!important}
+  .brand .mwLogoImage{width:40px!important;height:40px!important}
+  .logoWordmark{font-size:20px!important}
+  .heroInner{padding-left:14px!important;padding-right:14px!important}
+  .hero h1{font-size:39px!important}
+  main.wrap{padding-left:8px!important;padding-right:8px!important}
+  .head,.body{padding-left:13px!important;padding-right:13px!important}
+  .cards{grid-template-columns:1fr!important}
+}
+</style>
+
 </head>
 <body>
 <header>
   <div class="wrap nav">
     <a class="brand mwOption4" href="#top" aria-label="MotoWorth home">
-      <span class="logoBadge" aria-hidden="true"><span class="logoMw"><i>M</i><i>W</i></span></span>
+      <span class="logoBadge newLogoBadge" aria-hidden="true"><img class="mwLogoImage" src="assets/motoworth-m-logo.png?v=2" alt=""></span>
       <span class="logoDivider" aria-hidden="true"></span>
       <span class="logoText"><span class="logoWordmark">Moto<span>Worth</span><sup>™</sup></span><span class="logoTagline">REAL DATA. REAL VALUE. BETTER RIDES.</span></span>
     </a>
@@ -985,7 +1208,7 @@ main.wrap{max-width:none!important;padding:0 24px 36px!important;background:var(
 
 <div class="referenceProTip"><span class="tipIcon">♡</span><strong>Pro Tip</strong><span>Use this valuation as your reference point. Always verify service history, insurance, tyres, and documentation before finalising the deal.</span></div>
 <div class="referenceTrustStrip">
-  <div><b>157 Models</b><span>Across 31 brands</span></div>
+  <div><b id="catalogueDisplayCount">0 Models</b><span id="brandDisplayCount">Across 0 brands</span></div>
   <div><b>Source-Backed Valuation</b><span>Latest reference pricing</span></div>
   <div><b>State-Specific Insights</b><span>RTO &amp; tax context</span></div>
   <div><b>Unbiased &amp; Transparent</b><span>No dealer influence</span></div>
@@ -1269,7 +1492,7 @@ $('brand').addEventListener('change',()=>{fillModels();loadModel()});$('registra
 $('reportGateClose').addEventListener('click',closeReportGate);
 $('reportGate').addEventListener('click',(e)=>{if(e.target.id==='reportGate')closeReportGate()});
 $('reportGateSubmit').addEventListener('click',submitReportGate);
-async function start(){try{const [cat,rules,registry,profilesResp,stateTaxResp,imageDbResp]=await Promise.all([fetch('data/catalogue.v2.json'),fetch('data/valuation_rules.v4.json'),fetch('data/source_registry.v2.json'),fetch('data/brand_profiles.v1.json'),fetch('data/state_tax_profiles.v1.json'),fetch('data/bike_images.v1.json')]);if(!cat.ok||!rules.ok||!registry.ok)throw new Error('Data HTTP '+cat.status+'/'+rules.status+'/'+registry.status);S.catalogue=await cat.json();S.rules=await rules.json();S.registry=await registry.json();S.profiles=profilesResp.ok?await profilesResp.json():{profiles:{},fallback:{theme:'model character & ownership story',buyer_lens:'A badge can influence expectations, but used-market evidence should decide price.',emotion:'A motorcycle is more than an asset to the person who owned it.'}};S.stateTax=stateTaxResp.ok?await stateTaxResp.json():{default_registration_state:'KA',default_current_state:'KA',states:EMBEDDED_STATES,profiles:{}};if(!S.stateTax.states?.length)S.stateTax.states=EMBEDDED_STATES;S.imageDb=imageDbResp.ok?await imageDbResp.json():{models:{}};fillStateSelects();try{const own=await fetch('data/ownership_profiles.v1.json');S.ownership=own.ok?await own.json():null}catch(_){S.ownership=null}$('verifiedCount').textContent=S.catalogue.models.filter(m=>m.data_status==='verified_reference').length;$('catalogueCount').textContent=S.catalogue.models.length;$('brandCount').textContent=S.catalogue.brands.length;fillBrands();$('brand').value='suzuki';fillModels();$('model').value=S.catalogue.models.find(m=>m.id==='suzuki-gsx-s750')?.id||'';loadModel();initSegments();renderComps();setMode('calc')}catch(e){console.error(e);const ev=$('evidenceText');if(ev)ev.textContent='MotoWorth data could not load. Check that the data folder exists in this deployment.';}}
+async function start(){try{const [cat,rules,registry,profilesResp,stateTaxResp,imageDbResp]=await Promise.all([fetch('data/catalogue.v2.json'),fetch('data/valuation_rules.v4.json'),fetch('data/source_registry.v2.json'),fetch('data/brand_profiles.v1.json'),fetch('data/state_tax_profiles.v1.json'),fetch('data/bike_images.v1.json')]);if(!cat.ok||!rules.ok||!registry.ok)throw new Error('Data HTTP '+cat.status+'/'+rules.status+'/'+registry.status);S.catalogue=await cat.json();S.rules=await rules.json();S.registry=await registry.json();S.profiles=profilesResp.ok?await profilesResp.json():{profiles:{},fallback:{theme:'model character & ownership story',buyer_lens:'A badge can influence expectations, but used-market evidence should decide price.',emotion:'A motorcycle is more than an asset to the person who owned it.'}};S.stateTax=stateTaxResp.ok?await stateTaxResp.json():{default_registration_state:'KA',default_current_state:'KA',states:EMBEDDED_STATES,profiles:{}};if(!S.stateTax.states?.length)S.stateTax.states=EMBEDDED_STATES;S.imageDb=imageDbResp.ok?await imageDbResp.json():{models:{}};fillStateSelects();try{const own=await fetch('data/ownership_profiles.v1.json');S.ownership=own.ok?await own.json():null}catch(_){S.ownership=null}$('verifiedCount').textContent=S.catalogue.models.filter(m=>m.data_status==='verified_reference').length;$('catalogueCount').textContent=S.catalogue.models.length;$('brandCount').textContent=S.catalogue.brands.length;$('catalogueDisplayCount').textContent=`${S.catalogue.models.length} Models`;$('brandDisplayCount').textContent=`Across ${S.catalogue.brands.length} brands`;fillBrands();$('brand').value='suzuki';fillModels();$('model').value=S.catalogue.models.find(m=>m.id==='suzuki-gsx-s750')?.id||'';loadModel();initSegments();renderComps();setMode('calc')}catch(e){console.error(e);const ev=$('evidenceText');if(ev)ev.textContent='MotoWorth data could not load. Check that the data folder exists in this deployment.';}}
 start();
 
 (function(){
